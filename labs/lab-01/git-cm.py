@@ -3,6 +3,7 @@ import sys
 import subprocess
 from datetime import datetime
 from dotenv import load_dotenv, find_dotenv
+from openai import OpenAI
 
 print("git-cm: Developed by Saru Koirala - 188083232")
 print("Run Date:", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
@@ -35,3 +36,26 @@ try:
 except subprocess.CalledProcessError:
     print("❌ Not a git repo.")
     sys.exit(1)
+
+client = OpenAI(
+    base_url="https://openrouter.ai/api/v1",
+    api_key=OPENROUTER_API_KEY
+)
+
+response = client.chat.completions.create(
+    model="google/gemma-4-31b-it:free",
+    messages=[
+        {
+            "role": "system",
+            "content": "You are an LLM running in a CLI tool which writes semantic commit messages. Output ONLY the commit message using Conventional Commits format."
+        },
+        {
+            "role": "user",
+            "content": diff
+        }
+    ],
+    temperature=0.1
+)
+
+print("\nGenerated Commit Message:")
+print(response.choices[0].message.content)
