@@ -17,11 +17,15 @@ if not OPENROUTER_API_KEY:
     print("❌ Error: OPENROUTER_API_KEY not found")
     sys.exit(1)
 
+is_creative = "--creative" in sys.argv
+
 try:
     result = subprocess.run(
         ["git", "diff", "--staged"],
         capture_output=True,
         text=True,
+        encoding="utf-8",
+        errors="replace",
         check=True
     )
 
@@ -42,20 +46,38 @@ client = OpenAI(
     api_key=OPENROUTER_API_KEY
 )
 
+system_prompt = (
+    "You are an LLM running in a CLI tool which writes semantic commit messages. "
+    "Output ONLY the commit message using Conventional Commits format."
+)
+
+temperature = 0.1
+
+if is_creative:
+    system_prompt = (
+        "You are a pirate writing funny git commit messages using Gitmoji and 17th century pirate slang."
+    )
+    temperature = 1.2
+
 response = client.chat.completions.create(
     model="google/gemma-4-31b-it:free",
     messages=[
         {
             "role": "system",
-            "content": "You are an LLM running in a CLI tool which writes semantic commit messages. Output ONLY the commit message using Conventional Commits format."
+            "content": system_prompt
         },
         {
             "role": "user",
             "content": diff
         }
     ],
-    temperature=0.1
+    temperature=temperature
 )
 
 print("\nGenerated Commit Message:")
 print(response.choices[0].message.content)
+
+
+# ai integration test
+# screenshot test
+# creative mode screenshot
