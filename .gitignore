@@ -219,3 +219,6 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 labs/lab-01/node_modules/
+
+# Lab 7
+labs/lab-07/chroma_db/
