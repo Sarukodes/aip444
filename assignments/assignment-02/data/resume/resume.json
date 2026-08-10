@@ -1,0 +1,83 @@
+{
+  "hard_skills": [
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "SQL",
+    "FastAPI",
+    "Pydantic",
+    "OpenRouter",
+    "tool calling",
+    "REST APIs",
+    "ChromaDB",
+    "vector embeddings",
+    "reranking",
+    "Git",
+    "GitHub",
+    "Tavily Search API",
+    "dotenv",
+    "CLI development",
+    "vision LLMs",
+    "React"
+  ],
+  "soft_skills": [],
+  "work_experience": [
+    {
+      "role": "Frontend Developer",
+      "company": "Need Technosoft",
+      "duration": "Jul 2023 - Oct 2023",
+      "responsibilities": [
+        "Built and maintained responsive web pages using HTML, CSS, JavaScript, and React.",
+        "Implemented frontend UI changes and resolved layout, styling, and functionality bugs.",
+        "Worked on reusable interface components and improved responsiveness across common screen sizes."
+      ],
+      "achievements": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "Computer Programming",
+      "institution": "Seneca Polytechnic",
+      "details": [
+        "Relevant study: AI for Programmers, LLM APIs, structured outputs, agents, RAG, semantic search, data structures and algorithms."
+      ]
+    }
+  ],
+  "certifications_training": [
+    "Gemini for Google Workspace - Simplilearn (Mar 2026)",
+    "SQL Analytics & BI on Databricks - Simplilearn (Mar 2026)",
+    "Introduction to Generative AI Studio - Simplilearn (Jan 2026)"
+  ],
+  "projects_accomplishments": [
+    "AI Code Review Tool: Built a CLI code-review system with parallel AI reviewers, safe file-reading and ripgrep tools, structured analysis, debug mode, environment-based secret handling, and consolidated HTML reporting.",
+    "Source Credibility Analyzer Agent: Created a multi-step research agent using web search, URL reading, Pydantic validation, and structured credibility assessment across authorship, evidence, corroboration, transparency, currency, and bias.",
+    "Semantic Search & RAG System: Indexed technical/product data into vector stores, implemented semantic retrieval with thresholds, and added reranking to improve relevance for RAG workflows.",
+    "Visual Debugging Assistant: Developed a CLI assistant that analyzes software-error screenshots, searches for technical context, and produces traceable debugging guidance."
+  ],
+  "keywords_domain_expertise": [
+    "AI",
+    "Backend Development",
+    "AI-powered developer tools",
+    "structured-output workflows",
+    "semantic search",
+    "RAG systems",
+    "frontend web interfaces",
+    "LLM tool-calling workflows",
+    "tool calling",
+    "REST APIs",
+    "vector embeddings",
+    "CLI development",
+    "vision LLMs",
+    "web search",
+    "URL reading",
+    "Pydantic validation",
+    "credibility assessment",
+    "semantic retrieval",
+    "reranking",
+    "RAG workflows",
+    "AI agents",
+    "Git",
+    "GitHUb"
+  ]
+}

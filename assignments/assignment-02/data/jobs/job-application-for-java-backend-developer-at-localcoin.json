@@ -1,0 +1,103 @@
+{
+  "job_title": "Java Backend Developer",
+  "company_name": "Localcoin",
+  "location": "Canada",
+  "remote_status": "hybrid",
+  "posting_age_days": null,
+  "posting_date_text": null,
+  "required_skills": [
+    "Java 8",
+    "Maven",
+    "Gradle",
+    "Spring framework",
+    "Spring Boot",
+    "JPA",
+    "MVC",
+    "Spring Security",
+    "RESTful services",
+    "functional testing",
+    "unit testing",
+    "code coverage",
+    "static code analysis tools",
+    "Sonar",
+    "BDD",
+    "SQL",
+    "DDL",
+    "DML",
+    "relational database design",
+    "indexing",
+    "MySQL",
+    "Postgres",
+    "Oracle DB",
+    "MSSQL",
+    "Git flow",
+    "NGINX",
+    "Docker"
+  ],
+  "preferred_skills": [
+    "CI/CD platforms on the cloud",
+    "Linux platforms",
+    "shell commands",
+    "AWS",
+    "GPC",
+    "Angular",
+    "React JS",
+    "Swagger",
+    "Postman",
+    "Flyway"
+  ],
+  "experience_level": "5+ years",
+  "education_requirements": null,
+  "salary_range": "$100,000 - $135,000",
+  "key_responsibilities": [
+    "design and implement secure, scalable, and maintainable integration solutions aligned with business strategy",
+    "Ensure applications and integrations adhere to best practices for security, compliance, and data protection, proactively identifying and mitigating vulnerabilities",
+    "Develop, maintain, troubleshoot, and debug Java applications and integrations, ensuring high availability and optimal performance",
+    "Collaborate with UI teams to ensure seamless front-end and back-end interactions, optimizing for performance, security, and user experience",
+    "Implement secure coding practices, conduct peer code reviews, and contribute to system stability and resilience",
+    "Monitor application performance, identify bottlenecks, and enhance efficiency to improve user experience and system reliability",
+    "Respond to integration issues, resolve production incidents efficiently, and contribute to post-mortem analysis and improvements",
+    "Stay updated with the latest Java development trends, security best practices, and architectural improvements to enhance system robustness",
+    "Guide and mentor junior developers, fostering a culture of learning, best practices, and technical excellence. Provide support through code reviews, technical guidance, and skill development"
+  ],
+  "company_research": {
+    "company_size": "51-200 employees",
+    "industry": "Financial Services",
+    "recent_news": [
+      "Localcoin is expanding into Hong Kong, with 31 ATMs already installed, and is offering a price-match program for new users.",
+      "TRX and USDT TRON are now available at Localcoin ATMs in Canada, and BNB is available in Australia.",
+      "Localcoin is actively responding to a federal proposal to ban crypto ATMs in Canada, advocating for industry consultation and evidence-based policymaking."
+    ],
+    "culture_signals": [
+      "Described as a 'fun, collaborative and high-growth environment'.",
+      "Adopts a 'people-first' approach.",
+      "Is 'Great Place to Work\u00ae certified'.",
+      "Offers professional development opportunities, team events, and a hybrid work environment.",
+      "Emphasizes investing in employee growth through professional development, flexible hours, and health and wellness benefits.",
+      "Fosters a collaborative and innovative culture."
+    ],
+    "additional_context": [
+      "The Java Backend Developer role has a salary range of $100,000 - $135,000.",
+      "Localcoin was founded in 2017 and is headquartered in Toronto, Canada.",
+      "The company's mission is to simplify global cryptocurrency access.",
+      "They have a presence in Canada, Poland, and APAC regions (Australia, Hong Kong, New Zealand).",
+      "Localcoin partners with GENERAL BYTES for their Bitcoin ATM technology."
+    ],
+    "sources": [
+      "https://job-boards.greenhouse.io/localcoin/jobs/5996901004",
+      "https://www.linuxcareers.com/jobs/java-backend-developer-897ec9fe3f70",
+      "https://www.greatplacetowork.ca/en/certified-company/z4870188000001677034",
+      "https://ca.linkedin.com/company/localcoinatm",
+      "https://localcoinatm.com/about",
+      "https://www.prnewswire.com/apac/news-releases/localcoin-sets-its-sights-on-hong-kong-following-exceptional-growth-in-australia-and-new-zealand-302374878.html",
+      "https://ca.linkedin.com/company/localcoinatm",
+      "https://finance.yahoo.com/markets/crypto/articles/localcoin-responds-federal-proposal-ban-213700167.html",
+      "https://www.generalbytes.com/en/localcoin-bitcoin-atm-operator",
+      "https://localcoinatm.com",
+      "https://www.indeed.com/cmp/Localcoin",
+      "http://job-boards.greenhouse.io/localcoin",
+      "https://localcoinatm.com/careers",
+      "https://cryptocurrencyjobs.co/startups/localcoin"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "job_title": "Machine learning specialist",
+  "company_name": "Vector Institute",
+  "location": "Toronto, ON",
+  "remote_status": "Hybrid",
+  "posting_age_days": 9,
+  "posting_date_text": "Posted on July 28, 2026",
+  "required_skills": [
+    "Machine learning"
+  ],
+  "preferred_skills": [],
+  "experience_level": "5 years or more",
+  "education_requirements": "Earned doctorate degree",
+  "salary_range": "125,800 to 157,300 annually",
+  "key_responsibilities": [],
+  "company_research": {
+    "company_size": "51-200 employees",
+    "industry": "Research Services",
+    "recent_news": [
+      "Vector Institute Extends Collaboration With Roche through 2030, continuing advancements in AI research and application in health since 2020.",
+      "Launched UnBias-Plus, a free, open-source AI tool to detect and rewrite bias in text.",
+      "Signed an MOU with Helmholtz Munich to Advance International AI and Machine Learning Research.",
+      "The Vector Institute will receive $27M from the Ontario government.",
+      "Vector Institute names Ben Davies as its new Chief Information Officer.",
+      "Graham Taylor named Vector Research Director.",
+      "RBC collaborates with Vector for its Computer Vision Symposium.",
+      "The Vector Institute Enters Five-Year Strategic Partnership with Canadian Tire Corporation to Enhance Customer Experience.",
+      "Vector awards nearly $2 million in scholarships to top master\u2019s students pursuing graduate studies in AI in Ontario.",
+      "Vector Institute establishes a new AI Engineering Team to ramp up applied AI for sponsors and partners.",
+      "Accelerating innovation in health: Boehringer Ingelheim and the Vector Institute to collaborate on AI.",
+      "Quantum tech startup yiyaniQ is Vector\u2019s first spin-out company.",
+      "NVIDIA sponsorship renewed through 2027.",
+      "Federal Government Renews Pan-Canadian AI Strategy.",
+      "Vector Institute Launches Program to Help SMEs Reduce Bias in AI.",
+      "Vector researchers developed machine learning models that address inequities in liver transplant decisions.",
+      "Created AI-powered tools that detect Alzheimer\u2019s disease with 92% accuracy through speech analysis.",
+      "Advanced computer vision technology that provides surgeons with real-time guidance during operations.",
+      "Extended collaboration with Roche through 2030.",
+      "Launched UnBias-Plus, a free, open-source AI tool to detect, explain, and rewrite bias in text."
+    ],
+    "culture_signals": [
+      "Emphasis on continuous learning opportunities, including research seminars, commercialization talks, industry events, courses, and employee-selected professional development programs.",
+      "World-class environment, working alongside leading AI researchers in state-of-the-art facilities.",
+      "Collaborative environment with exceptional team members focused on self-improvement.",
+      "Supportive management focused on career development.",
+      "Focus on practical implementation of AI research and accelerating AI adoption.",
+      "Commitment to transparency, particularly regarding AI-generated content."
+    ],
+    "additional_context": [
+      "The Vector Institute is an independent, not-for-profit Canadian research organization focused on artificial intelligence (AI), with particular strength in machine learning and deep learning.",
+      "Launched in March 2017 with support from the Government of Canada, Government of Ontario, and private industry, in partnership with the University of Toronto and other universities.",
+      "Collaborates with institutions, industry, start-ups, incubators, and accelerators to advance AI research and drive its application, adoption, and commercialization across Canada.",
+      "The role of Machine Learning Specialist involves developing reusable software to apply and scale AI research breakthroughs, collaborating with ML engineering staff, data scientists, and industry/health organizations.",
+      "Responsibilities include designing and developing reference applications and model templates, contributing to open-source software, and mentoring industry sponsor staff.",
+      "Key technical skills for a Machine Learning Specialist include strong Python programming, experience with ML and statistics, experience applying ML research to novel problems, experience with deep learning frameworks (PyTorch, TensorFlow, HuggingFace, JAX, CUDA), and a data engineering background working with real-world data.",
+      "Prior experience with parameter and architecture tuning of deep learning algorithms is preferred.",
+      "Proficiency in software engineering best practices, version control systems, and collaborative development environments is important.",
+      "The institute has an AI Engineering Team to ramp up applied AI for sponsors and partners.",
+      "Offers a Machine Learning Associates (MLA) program for students and recent graduates to work on real-world AI implementations with Canadian start-ups.",
+      "The company has approximately 379 employees worldwide as of March 2026, with growth in Finance and Operations, Engineering, and Sales and Marketing departments."
+    ],
+    "sources": [
+      "https://vectorinstitute.ai/about/careers/open-positions",
+      "https://vectorinstitute.ai/about/careers",
+      "https://vectorinstitute.ai/research-talent/students/machine-learning-associates",
+      "https://www.linkedin.com/company/vector-institute/",
+      "https://leadiq.com/c/vector-institute/5a1d9da12300005e008d7e8e",
+      "https://www.reveliolabs.com/companies/vector-institute/employees",
+      "https://www.zoominfo.com/c/vector-institute/566137426",
+      "https://vectorinstitute.ai/category/news",
+      "https://vectorinstitute.ai/about/media",
+      "https://vectorinstitute.ai/annualreport202425-summary",
+      "https://www1.communitech.ca/companies/vector-institute/jobs/53392521-associate-applied-machine-learning-specialist",
+      "https://www.digitalwaffle.co/job-descriptions/machine-learning-engineer",
+      "https://www.globenewswire.com/news-release/2026/03/27/3263823/0/en/vector-institute-extends-collaboration-with-roche.html"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "job_title": "Junior Software Developer - Observability",
+  "company_name": "Canonical",
+  "location": "Toronto, Canada",
+  "remote_status": "Home based",
+  "posting_age_days": null,
+  "posting_date_text": null,
+  "required_skills": [
+    "Python",
+    "Go",
+    "Linux",
+    "Kubernetes",
+    "Observability",
+    "container images",
+    "Debian packaging",
+    "snap",
+    "distributed systems"
+  ],
+  "preferred_skills": [
+    "Python open source",
+    "Ubuntu Linux"
+  ],
+  "experience_level": "Junior",
+  "education_requirements": "Bachelor\u2019s or equivalent in Computer Science, STEM or similar degree",
+  "salary_range": null,
+  "key_responsibilities": [
+    "Develop a cloud-native monitoring stack that composes best-in-class open-source monitoring tools.",
+    "Write, test and document high quality code to create new features",
+    "Debug issues and interact with a vibrant community",
+    "Review code produced by other engineers",
+    "Attend conferences to represent Canonical and the Charmed Observability Stack",
+    "Work from home with global travel 2 to 4 weeks for internal and external events"
+  ],
+  "company_research": {
+    "company_size": "1,001-5,000 employees",
+    "industry": "Software Development",
+    "recent_news": [
+      "The company is actively hiring for the Junior Software Developer - Observability role.",
+      "Canonical released Ubuntu 26.04 LTS Resolute Raccoon."
+    ],
+    "culture_signals": [
+      "Remote-first company, operating globally since 2004.",
+      "Values: Adroit, Reliable, Accessible, Precise.",
+      "Emphasis on trust, collaboration, and diversity.",
+      "Operates according to the Ubuntu Code of Conduct, promoting inclusivity and respect.",
+      "Values self-driven and organized individuals.",
+      "Offers opportunities for career growth and development."
+    ],
+    "additional_context": [
+      "The Junior Software Developer - Observability role requires proven experience in Python and/or Go.",
+      "The role involves developing a cloud-native monitoring stack using open-source tools, with a focus on Kubernetes, OpenStack, and various other cloud technologies.",
+      "The company is profitable and growing.",
+      "Canonical is committed to making open-source software accessible worldwide and fostering innovation."
+    ],
+    "sources": [
+      "https://job-boards.greenhouse.io/canonical/jobs/2166631",
+      "https://canonical.com/careers/2166631",
+      "https://bebee.com/us/jobs/junior-software-developer-observability-canonical-fresno--lensa-7428_6dc8ed994c0cb133039c6befdbb56e159af85267caf737f21f411322f22493fd",
+      "https://www.linkedin.com/jobs/view/junior-software-developer-observability-at-canonical-2902876557",
+      "https://www.linkedin.com/company/canonical",
+      "https://en.wikipedia.org/wiki/Canonical_(company)",
+      "https://www.reveliolabs.com/companies/canonical/employees",
+      "https://tracxn.com/d/companies/canonical/__t6bel68jJf8HhvAg7MGgLAI6mMfBN8rwUbnf5PPrLu4",
+      "https://ubuntu.com/community/docs/governance/canonical",
+      "https://canonical.com/company",
+      "https://canonical.com/careers/company-culture/identity",
+      "https://www.comparably.com/companies/canonical-ltd/mission",
+      "https://canonical.com/careers/company-culture",
+      "https://builtin.com/company/canonical/faq/workplace-perception"
+    ]
+  }
+}
