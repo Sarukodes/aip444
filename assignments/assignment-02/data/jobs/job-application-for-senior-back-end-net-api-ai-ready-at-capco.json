@@ -1,0 +1,87 @@
+{
+  "job_title": "Senior Back-End - .NET, API, AI",
+  "company_name": "Capco",
+  "location": "Toronto",
+  "remote_status": null,
+  "posting_age_days": 0,
+  "posting_date_text": null,
+  "required_skills": [
+    ".NET",
+    "ASP.NET Core",
+    "REST API development",
+    "React",
+    "SQL Server",
+    "Docker",
+    "JWT",
+    "OAuth2",
+    "CI/CD pipelines",
+    "agile delivery environments"
+  ],
+  "preferred_skills": [
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Azure cloud environments",
+    "Snowflake",
+    "data platform integrations",
+    "technical documentation",
+    "runbooks",
+    "API documentation",
+    "AI-assisted software engineering practices",
+    "responsible AI usage"
+  ],
+  "experience_level": "5+ years",
+  "education_requirements": null,
+  "salary_range": "$118,000 - $152,000 CAD",
+  "key_responsibilities": [
+    "Design, develop, and maintain scalable web applications using .NET, React, SQL Server, and modern development practices.",
+    "Build secure RESTful APIs, implementing authentication and authorization mechanisms such as JWT and OAuth2 while ensuring consistent validation and error handling.",
+    "Create responsive and accessible user interfaces using React and modern front-end technologies, delivering reliable user experiences.",
+    "Containerize applications using Docker and contribute to CI/CD processes, code reviews, documentation, and knowledge sharing activities.",
+    "Leverage AI-assisted development tools responsibly to accelerate coding, testing, debugging, and technical documentation while maintaining quality and security standards."
+  ],
+  "company_research": {
+    "company_size": "5,001-10,000 employees",
+    "industry": "Financial Services, Energy",
+    "recent_news": [
+      "Capco launches new office in Calgary",
+      "Capco has announced a new charity partnership with UK non-profit KidsOut.",
+      "Capco has been expanding its presence, with recent office launches in Calgary, Canada, and strategic hires in their energy and banking practices.",
+      "Capco has ongoing initiatives and partnerships related to AI, including \"Capco AI Labs\" and collaborations with companies like OpenAI."
+    ],
+    "culture_signals": [
+      "Capco promotes a 'Be Yourself At Work' culture, emphasizing equity, inclusivity, and belonging.",
+      "They value employees who are proactive, collaborative, open to new challenges, and possess a problem-solving mindset.",
+      "Feedback suggests a supportive and people-centered environment where employees feel empowered to take ownership.",
+      "Capco's culture is collaborative, entrepreneurial and people-centered, with a strong emphasis on employees bringing their authentic selves to work.",
+      "Reviews describe Capco\u2019s culture as supportive, collaborative and people-focused, with employees citing \u201cgreat people and atmosphere,\u201d a \u201creal sense of belonging\u201d and leadership that is \u201capproachable, resourceful, and genuinely invested\u201d in growth.",
+      "Employees highlight skilled, cooperative teams, with reviews citing \u201chighly skilled people,\u201d \u201cclient focused deliveries\u201d and colleagues who are \u201chelpful and cooperative.\u201d",
+      "Capco emphasizes independent thinking, minimal bureaucracy and cross-functional problem-solving.",
+      "Capco values individuals who are not only technically skilled but also proactive, collaborative and open to new challenges.",
+      "Being comfortable in an agile environment and having a problem-solving mindset will really help you succeed.",
+      "Be yourself and show genuine enthusiasm. Capco has a \u201cBe Yourself At Work\u201d culture, so demonstrating curiosity, initiative and a positive attitude can make a big difference."
+    ],
+    "additional_context": [
+      "The Senior Back-End Developer role requires strong .NET and React experience, with a focus on designing, developing, and maintaining applications and APIs.",
+      "A key aspect of this role involves leveraging AI-assisted development practices to enhance efficiency and quality.",
+      "Capco was acquired by Wipro in 2021.",
+      "The company offers services primarily in banking, capital markets, wealth and investment management, insurance, finance, risk & compliance. It also has an energy consulting practice in the US.",
+      "Capco uses artificial intelligence (AI) tools to support and enhance several parts of talent acquisition."
+    ],
+    "sources": [
+      "https://builtin.com/job/back-end-net-api-ai-ready/9830089",
+      "https://ca.linkedin.com/jobs/view/senior-back-end-net-api-ai-ready-at-capco-4431125019",
+      "https://www.linkedin.com/company/capco",
+      "https://en.wikipedia.org/wiki/Capco",
+      "https://www.capco.com/about-us/be-yourself-at-work",
+      "https://builtin.com/company/capco/faq/culture-values",
+      "https://www.capco.com/careers/our-unique-culture",
+      "https://www.capco.com/careers-archived/our-unique-culture",
+      "https://builtin.com/company/capco/faq/workplace-perception",
+      "https://www.consultancy.org/firms/capco/news",
+      "https://www.consulting.us/firms/capco/news",
+      "https://alumni.capco.com/news",
+      "https://www.capco.com/intelligence",
+      "https://www.prnewswire.com/news/capco"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "job_title": "SAP Fioneer FPSL Banking Functional Consultant",
+  "company_name": "Astra North Infoteck Inc.",
+  "location": "Toronto, ON, ca",
+  "remote_status": "Hybrid",
+  "posting_age_days": null,
+  "posting_date_text": null,
+  "required_skills": [
+    "SAP Fioneer FPSL",
+    "SAP S/4HANA Finance integration",
+    "IFRS 9",
+    "Banking products accounting",
+    "Event-based and transaction-based accounting concepts",
+    "Core banking systems",
+    "Treasury trading platforms",
+    "SAP S/4HANA Universal Journal"
+  ],
+  "preferred_skills": [
+    "Insurance industry",
+    "IFRS 9 fundamentals (implementation perspective)"
+  ],
+  "experience_level": "8 years",
+  "education_requirements": null,
+  "salary_range": null,
+  "key_responsibilities": [
+    "FPSL Functional Configuration (Banking)",
+    "Configure FPSL objects for banking products including: Loans and advances, Deposits, Money market instruments, Securities bonds (if in scope)",
+    "Implement FPSL components: Contract types and contract attributes, Event types and event processing, Posting schemas and accounting determinations",
+    "Support setup of: Valuation areas, Subledger accounting layers, Accounting principles ledgers",
+    "Accounting IFRS 9 Support",
+    "Implement FPSL accounting logic aligned to: IFRS 9 classification (AC, FVOCI, FVTPL), Effective Interest Rate (EIR) based accruals, Fee and charge handling",
+    "Support postings related to: Initial recognition, Accruals and amortization, Derecognition events",
+    "Assist Finance Lead/Architect in validating: Accounting outcomes, Posting results at contract and GL level",
+    "Integration Support (Source Systems S/4HANA)",
+    "Support inbound integration from: Core banking systems, Treasury trading platforms",
+    "Assist with: Event payload validation, Attribute mappings and enrichments",
+    "Support outbound integration to: SAP S/4HANA Universal Journal",
+    "Validate: Document splitting, GL account derivation, Posting completeness and consistency",
+    "Testing, Reconciliation & Defect Resolution",
+    "Execute and support: Unit Testing (UT), System Integration Testing (SIT), User Acceptance Testing (UAT)",
+    "Perform and support reconciliations: Source system vs FPSL, FPSL subledger vs SAP GL",
+    "Analyze and resolve: Posting errors, Accounting mismatches, Integration defects",
+    "Support parallel run activities with legacy subledgers.",
+    "Documentation & Knowledge Transfer",
+    "Prepare functional deliverables including: Configuration documents, Test scripts and test evidence, Mapping and reconciliation documents",
+    "Support: Knowledge transfer to client teams, Go-live readiness, Hypercare activities"
+  ],
+  "company_research": {
+    "company_size": "51-200 employees",
+    "industry": "IT Services and IT Consulting",
+    "recent_news": [
+      "Astra-North Infoteck Inc. has posted job openings for the SAP Fioneer FPSL Banking Functional Consultant role.",
+      "Recent LinkedIn activity shows hiring for related roles such as Software Release Manager and Technical Recruiter."
+    ],
+    "culture_signals": [
+      "A positive, respectful, ethical, professional and supportive work environment.",
+      "Aims to provide all its employees and consultants with: consecutive projects and assignments, and competitive remunerations and rates.",
+      "Believes in working as a cohesive team with colleagues and clients to offer the best solutions and achieve client and organizational goals.",
+      "Understands individual career aspirations and provides the best opportunities to fulfill them."
+    ],
+    "additional_context": [
+      "Astra North Infoteck Inc. is headquartered in Oakville, Ontario, Canada.",
+      "They specialize in IT consulting, custom application development, managed services, and talent acquisition.",
+      "The company focuses on aligning IT functions with enterprise objectives and helping clients manage evolving technologies and business processes.",
+      "The SAP Fioneer FPSL Banking Functional Consultant role involves hands-on configuration and implementation of SAP Fioneer Financial Products Subledger (FPSL) for banking products, including integration with source systems and SAP S/4HANA Finance, adhering to IFRS 9 and local GAAP.",
+      "There was a mention of a take-private transaction by Apogee Parent, Inc. for an entity named 'Astra', which led to the cessation of trading of Class A Shares on the Nasdaq Capital Market. This may be a separate entity from Astra North Infoteck Inc."
+    ],
+    "sources": [
+      "https://ca.linkedin.com/company/astra-north-infoteck-inc-",
+      "https://www.zoominfo.com/c/astra-north-infoteck-inc/374945045",
+      "https://www.astra-north.com/about",
+      "https://www.astra-north.com/services",
+      "https://www.astra-north.com/careers",
+      "https://bebee.com/ca/jobs/sap-fioneer-fpsl-banking-functional-consultant-ifrs-9-s-4hana-integration-astra-north-infoteck-inc-c--jobgoal-29143_721904",
+      "https://bebee.com/ca/jobs/sap-fioneer-fpsl-banking-functional-consultant-astra-north-infoteck-inc-toronto--vonq-36c8a772ceb3e969",
+      "https://ca.linkedin.com/jobs/view/lance-soft-inc-hiring-sap-fioneer-technical-consultant-in-toronto-ontario-canada-4446212560",
+      "https://www.sapfioneer.com/careers",
+      "https://ca.linkedin.com/jobs/view/sap-fioneer-fpsl-banking-consultant-at-tekgence-inc-4436838800",
+      "https://astra.com/news/closing-private",
+      "https://economictimes.indiatimes.com/company/astra-north-infoteck-private-limited/U74999MH2016FTC288317"
+    ]
+  }
+}

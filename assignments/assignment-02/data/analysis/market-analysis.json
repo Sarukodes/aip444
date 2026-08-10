@@ -1,0 +1,86 @@
+{
+  "total_postings": 10,
+  "common_required_skills": [
+    {
+      "skill": "SQL",
+      "count": 4
+    },
+    {
+      "skill": "Python",
+      "count": 3
+    },
+    {
+      "skill": "API development",
+      "count": 2
+    },
+    {
+      "skill": "DevOps",
+      "count": 2
+    },
+    {
+      "skill": "Azure",
+      "count": 2
+    },
+    {
+      "skill": "Git",
+      "count": 2
+    }
+  ],
+  "common_preferred_skills": [
+    {
+      "skill": "AI",
+      "count": 2
+    },
+    {
+      "skill": "cloud",
+      "count": 2
+    }
+  ],
+  "experience_patterns": [
+    "5+ years of experience is frequently required for senior or specialized roles (3 postings).",
+    "Junior level positions are also present (1 posting).",
+    "Specific experience levels such as '3+ years of experience leading a professional practice' and '5 years or more' indicate a need for established professionals in leadership or research-oriented roles."
+  ],
+  "education_patterns": [
+    "A Bachelor's degree in a relevant field or equivalent experience is common (3 postings).",
+    "A Master's degree is also mentioned as a requirement or preference in some roles.",
+    "A Doctorate degree is specifically required for the Machine Learning Specialist role at Vector Institute (1 posting).",
+    "Some postings do not specify education requirements."
+  ],
+  "salary_observations": [
+    "Digital Agriculture Analytics Lead: $81,600.00 - $108,900.00 . CAD annually",
+    "Java Backend Developer: $100,000 - $135,000",
+    "Senior Back-End - .NET, API, AI: $118,000 - $152,000 CAD",
+    "Machine learning specialist: 125,800 to 157,300 annually",
+    "Practice Manager, Forward Deployment Engineer: $111,700.00 - $149,000.00 . CAD annually",
+    "Software Developer - Senior: CA$88.86 hourly",
+    "Software developer: 50.43 hourly"
+  ],
+  "common_responsibilities": [
+    "Designing, developing, and maintaining software applications and systems.",
+    "Building and managing APIs and integrations.",
+    "Writing, testing, and debugging code.",
+    "Collaborating with cross-functional teams.",
+    "Implementing security, governance, and risk management practices.",
+    "Utilizing cloud platforms and DevOps practices.",
+    "Troubleshooting and resolving technical issues.",
+    "Documenting technical specifications and processes."
+  ],
+  "industry_trends": [
+    "There is a strong emphasis on Artificial Intelligence (AI) and Machine Learning (ML) across multiple industries, including agriculture, finance, and software development.",
+    "The financial services and IT services/consulting sectors are well-represented.",
+    "The food and beverage manufacturing industry is showing interest in digital agriculture and AI for operational improvements."
+  ],
+  "culture_expectations": [
+    "Companies often highlight a collaborative, supportive, and people-focused work environment.",
+    "Emphasis is placed on continuous learning, professional development, and career growth opportunities.",
+    "Flexibility, such as hybrid or remote work options, is increasingly valued and offered.",
+    "Values like authenticity, inclusivity, and a problem-solving mindset are frequently mentioned."
+  ],
+  "notable_trends": [
+    "A significant trend is the integration of AI/ML into various roles, from specialized ML roles to back-end development and even management positions, suggesting a broad adoption of AI technologies.",
+    "Cloud technologies and DevOps practices are standard requirements for software development roles.",
+    "There is a notable focus on 'Responsible AI' in several postings, indicating a growing awareness of ethical considerations in AI development.",
+    "Hybrid and remote work options are common, reflecting a shift in workplace flexibility."
+  ]
+}
