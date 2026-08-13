@@ -40,6 +40,13 @@ def test_decode_to_bytes_decodes_base64_payload() -> None:
     assert decode_to_bytes(uri) == b"hello"
 
 
+def test_decode_to_bytes_accepts_newlines_in_base64_payload() -> None:
+    """Decoding accepts a Base64 payload split across lines."""
+    uri = "data:image/png;base64,aGVs\nbG8="
+
+    assert decode_to_bytes(uri) == b"hello"
+
+
 def test_encode_then_decode_round_trip_preserves_fixture_bytes() -> None:
     """A PNG fixture survives encode and decode without byte changes."""
     fixture_path = FIXTURES_DIR / "test.png"
@@ -60,5 +67,18 @@ def test_encode_then_decode_round_trip_preserves_fixture_bytes() -> None:
 )
 def test_parse_data_uri_rejects_invalid_uri(uri: str) -> None:
     """Parsing rejects malformed, unsupported, and invalidly encoded URIs."""
+    with pytest.raises(ValueError):
+        parse_data_uri(uri)
+
+
+@pytest.mark.parametrize(
+    "uri",
+    [
+        "data:image/png;base64,aGVsbG8",
+        "data:image/png;base64,aGVsbG8=!",
+    ],
+)
+def test_parse_data_uri_rejects_truncated_or_corrupted_base64(uri: str) -> None:
+    """Supported media MIME types do not make malformed Base64 valid."""
     with pytest.raises(ValueError):
         parse_data_uri(uri)

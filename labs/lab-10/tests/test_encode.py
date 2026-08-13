@@ -61,3 +61,15 @@ def test_encode_file_raises_for_empty_file(tmp_path: Path) -> None:
 
     with pytest.raises(ValueError):
         asyncio.run(encode_file(empty_path))
+
+
+def test_encode_file_supports_paths_containing_spaces(tmp_path: Path) -> None:
+    """Encoding a supported file works when its path contains spaces."""
+    fixture_path = tmp_path / "media files" / "sample image.png"
+    fixture_path.parent.mkdir()
+    fixture_path.write_bytes(b"image bytes")
+
+    result = asyncio.run(encode_file(fixture_path))
+
+    assert result.media_type is MediaType.PNG
+    assert base64.b64decode(result.base64) == b"image bytes"

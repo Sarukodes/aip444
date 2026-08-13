@@ -5,6 +5,11 @@ from pathlib import Path
 from .types import DataURI, MediaType, get_category
 
 
+def _remove_base64_whitespace(payload: str) -> str:
+    """Remove ASCII whitespace permitted in wrapped Base64 payloads."""
+    return payload.translate(str.maketrans("", "", " \t\n\r\f\v"))
+
+
 def parse_data_uri(uri: str) -> DataURI:
     """
     Parse a Data URI string into its components.
@@ -36,15 +41,17 @@ def parse_data_uri(uri: str) -> DataURI:
     except ValueError as exc:
         raise ValueError(f"Unsupported MIME type: {header}") from exc
 
+    normalized_payload = _remove_base64_whitespace(payload)
+
     try:
-        base64.b64decode(payload, validate=True)
+        base64.b64decode(normalized_payload, validate=True)
     except (binascii.Error, ValueError) as exc:
         raise ValueError("Data URI payload is not valid Base64") from exc
 
     return DataURI(
         media_type=media_type,
         category=get_category(media_type),
-        base64=payload,
+        base64=normalized_payload,
         raw=uri,
     )
 
