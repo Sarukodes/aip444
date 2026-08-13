@@ -1,5 +1,8 @@
+import base64
+import binascii
 from pathlib import Path
-from .types import DataURI
+
+from .types import DataURI, MediaType, get_category
 
 
 def parse_data_uri(uri: str) -> DataURI:
@@ -18,8 +21,32 @@ def parse_data_uri(uri: str) -> DataURI:
         ValueError: If the MIME type is unsupported
         ValueError: If the Base64 content is invalid
     """
-    # TODO: implement
-    raise NotImplementedError
+    prefix = "data:"
+    marker = ";base64,"
+
+    if not uri.startswith(prefix) or marker not in uri:
+        raise ValueError("URI must use the data:<mime>;base64,<payload> format")
+
+    header, payload = uri[len(prefix):].split(marker, maxsplit=1)
+    if not header:
+        raise ValueError("Data URI MIME type must not be empty")
+
+    try:
+        media_type = MediaType(header)
+    except ValueError as exc:
+        raise ValueError(f"Unsupported MIME type: {header}") from exc
+
+    try:
+        base64.b64decode(payload, validate=True)
+    except (binascii.Error, ValueError) as exc:
+        raise ValueError("Data URI payload is not valid Base64") from exc
+
+    return DataURI(
+        media_type=media_type,
+        category=get_category(media_type),
+        base64=payload,
+        raw=uri,
+    )
 
 
 def decode_to_bytes(uri: str) -> bytes:
@@ -35,8 +62,11 @@ def decode_to_bytes(uri: str) -> bytes:
     Raises:
         ValueError: If the URI is invalid
     """
-    # TODO: implement
-    raise NotImplementedError
+    parsed_uri = parse_data_uri(uri)
+    try:
+        return base64.b64decode(parsed_uri.base64, validate=True)
+    except (binascii.Error, ValueError) as exc:
+        raise ValueError("Data URI payload is not valid Base64") from exc
 
 
 async def decode_to_file(
@@ -52,5 +82,4 @@ async def decode_to_file(
     Raises:
         ValueError: If the URI is invalid
     """
-    # TODO: implement
-    raise NotImplementedError
+    Path(output_path).write_bytes(decode_to_bytes(uri))
